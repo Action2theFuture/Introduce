@@ -53,6 +53,7 @@
     position: relative;
     text-align: center;
     color:white;
+    margin-top: 50px;
 }
 .links i{
     padding-right: 10px;
@@ -78,19 +79,14 @@
     background-image: url('images/background.webp');
     transition: all .5s ease;
     height: 100vh;
-    z-index: 0;
-    background-color: #141E26;
 }
 
 .about {
     background-size: cover;
-    transition: all .5s;
     height: 100vh;
     font-family: 'Redressed', cursive;
-    background-image: url('images/about_background.webp');
+    background-image: url('images/about_background.jpg');
     transition: all .5s ease;
-    z-index: 0;
-    background-color: #141E26;
 }
 .Contact {
     background-size: cover;
@@ -99,43 +95,11 @@
     font-family: 'Redressed', cursive;
     background-image: url('images/contact_background.webp');
     transition: all .5s ease;
-    z-index: 0;
-    background-color: #141E26;
 }
 
-.About {
-    position: relative;
-    top: 40%;
-    left: 47%;
-    margin-left: -200px;
-    margin-top: -80px;
-    width: 500px;
-    background: rgba(170, 163, 163, 0.4);
-    font-size: 20px;
-    text-shadow: 3px 3px #141E26;
-    color: white;
-    font-weight: 400;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.hobby {
-    position: relative;
-    top: 20%;
-    left: 21.5%;
-    margin-left:-60px;
-    width: 1000px;
-    height: 400px;
-    color:white;
-    background: rgba(170, 163, 163, 0.4);
-    font-size: 20px;
-    margin-right: 200px;
-    transition: all .5s ease;
-    border-radius: 5px;
-}
 .one {
     padding-top: 40px;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-right: 60px;
     padding-bottom: 110px;
     list-style: none;
@@ -143,23 +107,33 @@
 .one i {
     font-size: 30px;
 }
+.one p {
+    vertical-align: middle;
+    background-color: #141E26;
+    width: 180px;
+    height: 60px;
+    top: 100%;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
 .shoes {
     padding-right: 100px;
 }
-.shoes:hover {
+.shoes p:hover {
     color:tomato;
 }
 .exercise {
-    padding-left: 110px;
-    padding-right: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
-.exercise:hover {
+.exercise p:hover {
     color: black;
 }
 .coding {
     padding-left: 100px;
 }
-.coding:hover {
+.coding p:hover {
     color:#F2CB05;
 }
 .one li {
@@ -167,7 +141,7 @@
 }
 .two {
     padding-top: 60px;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-right: 60px;
     padding-bottom: 40px;
     list-style: none;
@@ -180,24 +154,100 @@
 .two i {
     font-size: 30px;
 }
+
+.two p {
+    vertical-align: middle;
+    background-color: #141E26;
+    width: 180px;
+    height: 60px;
+    top: 100%;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
 .tour {
     padding-right: 100px;
 }
-.tour:hover {
+.tour p:hover {
     color:#730217;
 }
 .trip {
     padding-left: 60px;
-    padding-right: 100px;
+    padding-right: 60px;
 }
-.trip:hover {
+.trip p:hover {
     color:#4D5159;
 }
 .youtube {
-    padding-left: 70px;
+    padding-left: 100px;
 }
-.youtube:hover {
+.youtube p:hover {
     color:#F0E443;
+}
+
+.content {
+    font-family: 'Redressed', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title{
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(170, 163, 163, 0.4);
+    margin-left: 400px;
+    width: 50%;
+    text-align: center;
+    height: 80px;
+    border-radius: 3px;
+    color:black;
+    font-weight: 900;
+    font-family: 'Redressed', cursive;
+}
+
+.About {
+    top: 80%;
+    left: 70%;
+    margin-top:150px;
+    margin-left: 250px;
+    padding-top: 30px;
+    width: 500px;
+    background: rgba(170, 163, 163, 0.4);
+    font-size: 20px;
+    text-shadow: 3px 3px #141E26;
+    color: white;
+    height: 100px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.hobby {
+    position: relative;
+    top: 15%;
+    left: 21.5%;
+    margin-left:-60px;
+    width: 1000px;
+    height: 400px;
+    color:white;
+    background: rgba(170, 163, 163, 0.4);
+    font-size: 20px;
+    margin-right: 200px;
+    transition: all .5s ease;
+    border-radius: 5px;
+}
+
+iframe {
+    margin-top: 100px;
+    margin-left: 25%;
+    transition: all .5s ease;
 }
 
 @keyframes fadeIn {
@@ -218,6 +268,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    z-index: 0;
+    background-color: #141E26;
 }
 
 a {
@@ -241,6 +293,7 @@ label #btn {
 }
 
 label #cancel {
+    margin-top: 10px;
     z-index: 1111;
     left: -195px;
     top: 17px;
@@ -263,7 +316,14 @@ label #cancel {
 #check:checked ~ section{
     margin-left: 250px;
 }
+
 #check:checked ~ section .hobby {
     left:17%;
+    transition: all .5s ease;
+}
+
+#check:checked ~ section .title {
+    position: absolute;
+    margin-left: 280px;
     transition: all .5s ease;
 }
