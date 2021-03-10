@@ -244,9 +244,7 @@
     border-radius: 5px;
 }
 
-iframe {
-    margin-top: 100px;
-    margin-left: 25%;
+iframe 
     transition: all .5s ease;
 }
 
